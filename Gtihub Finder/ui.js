@@ -28,6 +28,9 @@ class UI {
             </div>
             <h3 class="page-heading mb-3">Latest Repos</h3>
             <div id="repos"></div>
+            <div class="form-group">
+                <input type="submit" value="More +" class="btn btn-primary btn-block" onclick="getMoreRepos()">
+            </div>
         `
     }
 
